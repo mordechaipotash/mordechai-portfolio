@@ -101,6 +101,95 @@ export default function HershmanPage() {
 
             <Separator />
 
+            {/* Other Healthcare Projects */}
+            <div className="space-y-4">
+              <h2 className="text-2xl font-semibold">Other Healthcare Automation I&apos;ve Built</h2>
+              
+              <div className="grid md:grid-cols-2 gap-4">
+                {/* Audio-Guided Medical Forms */}
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+                  <img 
+                    src="/screenshots/audio.png" 
+                    alt="Audio-Guided Medical Forms"
+                    className="w-full h-48 object-cover border-b"
+                  />
+                  <CardContent className="pt-4">
+                    <h3 className="font-bold text-lg mb-2">Voice-Assisted Patient Intake</h3>
+                    <p className="text-sm text-gray-600 mb-3">
+                      HIPAA-compliant audio-guided forms that reduced patient intake time by 75%. 
+                      Handles multi-language support and accessibility requirements.
+                    </p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Badge className="bg-green-100 text-green-700">10,000+ forms processed</Badge>
+                      <Badge className="bg-blue-100 text-blue-700">HIPAA Compliant</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* WOTC Document Processing */}
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+                  <img 
+                    src="/screenshots/wotc-system.png" 
+                    alt="Medical Document Processing"
+                    className="w-full h-48 object-cover border-b"
+                  />
+                  <CardContent className="pt-4">
+                    <h3 className="font-bold text-lg mb-2">AI Document Processing System</h3>
+                    <p className="text-sm text-gray-600 mb-3">
+                      Processes thousands of medical and employment documents daily using Claude AI 
+                      with 99.8% accuracy. Extracts data from PDFs, images, and scanned documents.
+                    </p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Badge className="bg-purple-100 text-purple-700">99.8% accuracy</Badge>
+                      <Badge className="bg-orange-100 text-orange-700">AI-powered</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* The Space - Patient Onboarding */}
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+                  <img 
+                    src="/screenshots/the-space.png" 
+                    alt="Patient Onboarding Platform"
+                    className="w-full h-48 object-cover border-b"
+                  />
+                  <CardContent className="pt-4">
+                    <h3 className="font-bold text-lg mb-2">Complex Patient Onboarding</h3>
+                    <p className="text-sm text-gray-600 mb-3">
+                      15-step enrollment wizard with audio guidance, digital signatures, 
+                      and PDF generation. Handles medical history, emergency contacts, and consent forms.
+                    </p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Badge className="bg-indigo-100 text-indigo-700">Digital signatures</Badge>
+                      <Badge className="bg-pink-100 text-pink-700">Auto PDF generation</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* Dental Imaging Analysis */}
+                <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+                  <img 
+                    src="/screenshots/dental.png" 
+                    alt="Dental Imaging Analysis"
+                    className="w-full h-48 object-cover border-b"
+                  />
+                  <CardContent className="pt-4">
+                    <h3 className="font-bold text-lg mb-2">Medical Imaging Analysis</h3>
+                    <p className="text-sm text-gray-600 mb-3">
+                      Python-based X-ray analysis using radiologist-grade libraries. 
+                      Automated diagnostic reports with anomaly detection and measurement tools.
+                    </p>
+                    <div className="flex gap-2 flex-wrap">
+                      <Badge className="bg-red-100 text-red-700">Python/OpenCV</Badge>
+                      <Badge className="bg-yellow-100 text-yellow-700">DICOM support</Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+
+            <Separator />
+
             {/* Closing Message */}
             <div className="space-y-4">
               <Card className="bg-gradient-to-r from-gray-50 to-white border-gray-200">
